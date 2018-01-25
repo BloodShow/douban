@@ -1,0 +1,58 @@
+page{
+  font-family: "Microsoft YaHei";
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header{
+  display: flex;
+  justify-content: center;
+  border-bottom:2rpx solid #ccc;
+  padding: 20rpx 0rpx;
+}
+.page-header-title{
+  color: #999;
+  font-size: 40rpx;
+}
+
+.page-body{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.item{
+  display: flex;
+  padding: 20rpx 40rpx;
+  border-bottom: 20rpx;
+}
+.item .poster{
+  width: 128px;
+  height: 128px;
+  margin-right: 20rpx;
+}
+.item .meta{
+  flex: 1;
+}
+.item .title,.item .sub-title{
+  display: block;
+  margin-bottom: 14rpx;
+}
+.item .title{
+  font-size: 32rpx;
+}
+.item .sub-title{
+  font-size: 22rpx;
+  color: #ccc;
+}
+.item .artists{
+  font-size: 26rpx;
+  color: #999;
+}
+.item .rating{
+  color: red;
+  font-weight: bold;
+}
+
+
+
